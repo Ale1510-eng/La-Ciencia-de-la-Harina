@@ -1,0 +1,126 @@
+:root{
+    --fondo:#FCF7FF;
+    --componentes:#D5CABD;
+    --resaltado:#845EC2;
+    --botones:#9B89B3;
+}
+
+.montserrat-titulo {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .hind-regular {
+    font-family: "Hind", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+*{
+    background-color: var(--fondo);
+}
+
+header{
+    text-align: center;
+    color: var(--resaltado);
+}
+
+#navegacion-principal{
+    background-color: var(--componentes);
+    padding: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: center;
+}
+
+#navegacion-principal a{
+    margin-left: 8rem;
+    margin-right: 8rem;
+    text-decoration: none;
+    background-color: var(--componentes);
+    font-weight: bold;
+    color:var(--resaltado);
+    
+}
+
+h2{
+    text-align: center;
+    color: var(--resaltado);
+}
+
+.portada{
+    height: 20rem;
+    margin-left: 3rem;
+    margin-right: 3rem;   
+    margin-top: 0;
+    overflow: hidden;
+    align-content: center;
+}
+
+.portada image{
+    object-fit: cover;
+}
+
+.contenedor{
+    display: flex;
+}
+
+.contenedor section{
+    flex: 25%;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.contenedor section p{
+    text-align: justify;
+}
+
+.contenedor aside{
+    flex: 50rem;
+    margin-right: 3rem;
+    background-color: var(--componentes);
+}
+
+.contenedor aside h2,
+.contenedor aside ol,
+.contenedor aside li{
+    background-color: var(--componentes);
+}
+
+.contenedor aside a{
+    text-decoration: none;
+    color: black;
+}
+
+.contenedor aside li{
+    margin-top: 2rem;
+}
+
+footer{
+    background-color: var(--componentes);
+    text-align: center;
+    color: var(--resaltado);
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 2rem;
+}
+
+.receta{
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.receta h3{
+    color: var(--resaltado);
+}
+
+figure{
+    text-align: center;
+}
+
+.imagen-receta{
+    height: 20rem;
+}
