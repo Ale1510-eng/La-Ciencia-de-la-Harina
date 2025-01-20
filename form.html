@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <h1>¡Contáctanos!</h1>
+    </header>
+
+    <main>
+        <section>
+            <form action="">
+                <!-- Contenido del formulario-->
+                <fieldset>
+                    <legend>Datos básicos</legend>
+                    <span>Déjame tus datos y con gusto me pondré en contacto contigo <br></span>
+                    Nombre(s): <input type="text" placeholder="Juan Antonio" required><br>
+                    Apellidos: <input type="text" placeholder="Pérez" required><br>
+                    Correo electrónico: <input type="email" placeholder="dirección@dominio.com" required><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Mensaje</legend>
+                    <label for="comentario">
+                        Asunto del mensaje:<br>
+                        <input id="comentario" type="radio" name="asunto" required>Comentario/Sugerencia
+                    </label>
+                    <label for="asesoria">
+                        <input id="asesoria" type="radio" name="asunto" required>Asesoría
+                    </label>
+                    <br>
+                    Mensaje: <textarea name="" id="" placeholder="Cuéntame que necesitas" required></textarea>
+                </fieldset>
+
+                <fieldset>
+                    <span>¿Deseas suscribirte al newsletter?</span><br>
+                    sí, deseo suscribirme <input type="checkbox">
+                </fieldset>
+                <input type="submit">
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>
